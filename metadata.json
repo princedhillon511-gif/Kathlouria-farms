@@ -1,0 +1,6 @@
+{
+  "name": "Kathlouria Farms | Premium Indian Spices",
+  "description": "Premium Indian farm-to-kitchen brand offering authentic, high-quality spices and agricultural products. From our farm to your family.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

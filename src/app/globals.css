@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-forest-dark: #122619;
+    --brand-forest: #1A3826;
+    --brand-forest-soft: #234B33;
+    --brand-ivory: #FAF7F0;
+    --brand-ivory-light: #FDFCFA;
+    --brand-ivory-deep: #F1EADF;
+    --brand-gold: #C5A467;
+    --brand-gold-muted: #B69251;
+    --brand-charcoal: #1F2421;
+    --brand-charcoal-muted: #525955;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF7F0;
+    color: #1F2421;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom smooth scrollbar & utility touches */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C5A467;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1A3826;
+}
